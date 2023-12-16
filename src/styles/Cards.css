@@ -1,0 +1,99 @@
+.Fondos{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+   
+}
+
+.Card{
+margin-top: 15px;
+width: 503px;
+height: 161px;
+flex-shrink: 0;
+border-radius: 15px;
+border: 1px solid #E5E5E5;
+background: rgba(255, 255, 255, 0.50);
+
+;
+
+display: grid;
+grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+grid-template-rows: 50% 50%;
+grid-template-areas: 
+"n . . . . . . d ed ."
+"e . . . . b . . . .";
+}
+.Name{
+margin-top: 20px;
+margin-left: 15px;
+grid-area: n;
+width: 339px;
+height: 34px;    
+color: #0F0F2D;
+font-family: Lato;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.linea{
+    width: 100%;
+    /* Ancho completo del contenedor padre */
+    height: 1px; /* Grosor de la línea */
+    background-color: #ffffff; /* Color de la línea */
+    margin-top: 10px;
+}
+.email{
+    width: 50px;
+    grid-area: e; 
+    margin-left: 15px;
+    color: white;
+}
+.birthday{
+    width: 50px;
+    grid-area: b;
+    color: white;
+}
+.delete{
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 35px;
+    padding-left: 10px;
+    width: 43px;
+    height: 43px;
+    flex-shrink: 0;
+    background-color: #D85D5D;
+    grid-area: d;
+}
+.delete:hover{
+    background-color: #e42626;
+}
+.edit{
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 43px;
+height: 43px;
+flex-shrink: 0;
+background-color: Gray 4;
+grid-area: ed;
+padding-left: 10px;
+}
+.edit:hover{
+    background-color: #a9a6a6;
+}
+
+#Contenedor__Cards{
+   margin-top: 90px;
+    height: 540px;
+    overflow: auto;
+    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal cuando no es necesaria */
+    position: absolute;
+
+}

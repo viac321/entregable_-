@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+button, [type='button'], [type='reset'], [type='submit'] {
+ 
+    background-color:#CBFFD9;
+    background-image: none;
+}
+
+input{
+    color: white;
+}
+

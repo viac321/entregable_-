@@ -1,0 +1,35 @@
+.Main{
+    position: relative;
+    overflow-x: hidden;
+}
+
+.Show{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    visibility: visible;
+    left: 33.5%;
+    top: 25%;
+   
+}
+
+#Formu{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 4;
+    /* visibility: hidden; */
+}
+
+
+.Delete{
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    /* visibility:hidden; */
+}
